@@ -35,7 +35,7 @@ var securityHelper = (() => {
   this.compileArrayString = ((hash) => {
     var realString = "";
     var newHash = this.sortObject(hash);
-    var string = newHash[0] + newHash[0][0] + "/n" + newHash[1] + newHash[1][0] + "/n" + newHash[2] + newHash[2][0] + "/n" + newHash[3] + newHash[3][0];
+    var string = newHash[0] + "=" + newHash[0][0] + "/n" + newHash[1] + "=" + newHash[1][0] + "/n" + newHash[2] + "=" + newHash[2][0] + "/n" + newHash[3] + "=" + newHash[3][0];
     return string;
   });
 
