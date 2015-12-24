@@ -20,6 +20,9 @@ var ForumMobile = React.createClass({
           Welcome to the Forum!
         </Text>
         <Text style={styles.instructions}>
+          To get started, edit index.android.js
+        </Text>
+        <Text style={styles.instructions}>
           Shake or press menu button for dev menu
         </Text>
       </View>
