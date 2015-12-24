@@ -10,9 +10,9 @@ var MOCKED_LOGIN_DATA = [
 ];
 
 var React = require('react-native');
-var optionParser = require('optionParser');
-var responseParser = require('responseParser');
 var forumEx = require('forumEx');
+var loginHelper = require('loginHelper');
+var securityHelper = require('securityHelper');
 var {
   AppRegistry,
   StyleSheet,
